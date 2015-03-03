@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSURL *myURL = [NSURL URLWithString:@"http://cashq.co.kr/m/"];
+    NSURLRequest *myRequest = [NSURLRequest requestWithURL:myURL];
+    self.myWebView.scalesPageToFit = YES;
+    
+    [self.myWebView loadRequest:myRequest];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,3 +29,17 @@
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
