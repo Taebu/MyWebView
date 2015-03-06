@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC1AF081-48AE-4A4A-8321-5AAD689312A1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyWebview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0AC46C35D5FAEDF2E806ADC856DB531ACC72A7E</key>
+		<string>https://github.com/Taebu/MyWebView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyWebview.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0AC46C35D5FAEDF2E806ADC856DB531ACC72A7E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Taebu/MyWebView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0AC46C35D5FAEDF2E806ADC856DB531ACC72A7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0AC46C35D5FAEDF2E806ADC856DB531ACC72A7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyWebview</string>
+		</dict>
+	</array>
+</dict>
+</plist>

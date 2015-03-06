@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480A12DC1AA953A8008D68E0 /* back_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D11AA953A8008D68E0 /* back_n.png */; };
+		480A12DD1AA953A8008D68E0 /* back_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D21AA953A8008D68E0 /* back_y.png */; };
+		480A12DE1AA953A8008D68E0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D31AA953A8008D68E0 /* bg.png */; };
+		480A12DF1AA953A8008D68E0 /* fron_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D41AA953A8008D68E0 /* fron_n.png */; };
+		480A12E01AA953A8008D68E0 /* fron_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D51AA953A8008D68E0 /* fron_y.png */; };
+		480A12E11AA953A8008D68E0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D61AA953A8008D68E0 /* home.png */; };
+		480A12E21AA953A8008D68E0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D71AA953A8008D68E0 /* icon.png */; };
+		480A12E31AA953A8008D68E0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D81AA953A8008D68E0 /* icon@2x.png */; };
+		480A12E41AA953A8008D68E0 /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12D91AA953A8008D68E0 /* loc.png */; };
+		480A12E51AA953A8008D68E0 /* main2.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12DA1AA953A8008D68E0 /* main2.png */; };
+		480A12E61AA953A8008D68E0 /* re.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12DB1AA953A8008D68E0 /* re.png */; };
+		480A12EF1AA95764008D68E0 /* cashq_logo.m in Sources */ = {isa = PBXBuildFile; fileRef = 480A12EE1AA95764008D68E0 /* cashq_logo.m */; };
+		483C51641AA94685005B4E86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483C51631AA94685005B4E86 /* CoreLocation.framework */; };
 		48F3C9481A387F0A00A82DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3C9471A387F0A00A82DA0 /* main.m */; };
 		48F3C94B1A387F0A00A82DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3C94A1A387F0A00A82DA0 /* AppDelegate.m */; };
 		48F3C94E1A387F0A00A82DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3C94D1A387F0A00A82DA0 /* ViewController.m */; };
@@ -27,6 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		480A12D11AA953A8008D68E0 /* back_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_n.png; sourceTree = "<group>"; };
+		480A12D21AA953A8008D68E0 /* back_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_y.png; sourceTree = "<group>"; };
+		480A12D31AA953A8008D68E0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		480A12D41AA953A8008D68E0 /* fron_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fron_n.png; sourceTree = "<group>"; };
+		480A12D51AA953A8008D68E0 /* fron_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fron_y.png; sourceTree = "<group>"; };
+		480A12D61AA953A8008D68E0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		480A12D71AA953A8008D68E0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		480A12D81AA953A8008D68E0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		480A12D91AA953A8008D68E0 /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loc.png; sourceTree = "<group>"; };
+		480A12DA1AA953A8008D68E0 /* main2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main2.png; sourceTree = "<group>"; };
+		480A12DB1AA953A8008D68E0 /* re.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = re.png; sourceTree = "<group>"; };
+		480A12ED1AA95764008D68E0 /* cashq_logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cashq_logo.h; sourceTree = "<group>"; };
+		480A12EE1AA95764008D68E0 /* cashq_logo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cashq_logo.m; sourceTree = "<group>"; };
+		483C51631AA94685005B4E86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		48F3C9421A387F0A00A82DA0 /* MyWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F3C9461A387F0A00A82DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48F3C9471A387F0A00A82DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483C51641AA94685005B4E86 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +88,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		480A12D01AA953A8008D68E0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				480A12D11AA953A8008D68E0 /* back_n.png */,
+				480A12D21AA953A8008D68E0 /* back_y.png */,
+				480A12D31AA953A8008D68E0 /* bg.png */,
+				480A12D41AA953A8008D68E0 /* fron_n.png */,
+				480A12D51AA953A8008D68E0 /* fron_y.png */,
+				480A12D61AA953A8008D68E0 /* home.png */,
+				480A12D71AA953A8008D68E0 /* icon.png */,
+				480A12D81AA953A8008D68E0 /* icon@2x.png */,
+				480A12D91AA953A8008D68E0 /* loc.png */,
+				480A12DA1AA953A8008D68E0 /* main2.png */,
+				480A12DB1AA953A8008D68E0 /* re.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		48F3C9391A387F0A00A82DA0 = {
 			isa = PBXGroup;
 			children = (
+				483C51631AA94685005B4E86 /* CoreLocation.framework */,
 				48F3C9441A387F0A00A82DA0 /* MyWebview */,
 				48F3C95E1A387F0A00A82DA0 /* MyWebviewTests */,
 				48F3C9431A387F0A00A82DA0 /* Products */,
@@ -81,6 +128,9 @@
 		48F3C9441A387F0A00A82DA0 /* MyWebview */ = {
 			isa = PBXGroup;
 			children = (
+				480A12D01AA953A8008D68E0 /* image */,
+				480A12ED1AA95764008D68E0 /* cashq_logo.h */,
+				480A12EE1AA95764008D68E0 /* cashq_logo.m */,
 				48F3C9491A387F0A00A82DA0 /* AppDelegate.h */,
 				48F3C94A1A387F0A00A82DA0 /* AppDelegate.m */,
 				48F3C94C1A387F0A00A82DA0 /* ViewController.h */,
@@ -200,9 +250,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480A12E41AA953A8008D68E0 /* loc.png in Resources */,
 				48F3C9511A387F0A00A82DA0 /* Main.storyboard in Resources */,
 				48F3C9561A387F0A00A82DA0 /* LaunchScreen.xib in Resources */,
+				480A12E11AA953A8008D68E0 /* home.png in Resources */,
+				480A12E01AA953A8008D68E0 /* fron_y.png in Resources */,
+				480A12DE1AA953A8008D68E0 /* bg.png in Resources */,
 				48F3C9531A387F0A00A82DA0 /* Images.xcassets in Resources */,
+				480A12E21AA953A8008D68E0 /* icon.png in Resources */,
+				480A12E61AA953A8008D68E0 /* re.png in Resources */,
+				480A12DF1AA953A8008D68E0 /* fron_n.png in Resources */,
+				480A12E51AA953A8008D68E0 /* main2.png in Resources */,
+				480A12DC1AA953A8008D68E0 /* back_n.png in Resources */,
+				480A12DD1AA953A8008D68E0 /* back_y.png in Resources */,
+				480A12E31AA953A8008D68E0 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +284,7 @@
 				48F3C94E1A387F0A00A82DA0 /* ViewController.m in Sources */,
 				48F3C94B1A387F0A00A82DA0 /* AppDelegate.m in Sources */,
 				48F3C9481A387F0A00A82DA0 /* main.m in Sources */,
+				480A12EF1AA95764008D68E0 /* cashq_logo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyWebview/Info.plist;
@@ -360,10 +423,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyWebview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

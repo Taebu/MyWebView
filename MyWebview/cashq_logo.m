@@ -8,11 +8,33 @@
 
 #import "cashq_logo.h"
 
-@interface cashq_logo ()
-
-@end
-
 @implementation cashq_logo
+@synthesize mytimer;
+@synthesize locationManager;
+@synthesize latitude;
+@synthesize longitude;
+
+
+
+//@interface cashq_logo ()
+
+//@end
+
+-(instancetype) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+
+    if(self){
+    
+    }
+    return self;
+    
+}
+
+-(void)moveToNext{
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

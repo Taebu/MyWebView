@@ -21,7 +21,21 @@
     self.myWebView.scalesPageToFit = YES;
     
     [self.myWebView loadRequest:myRequest];
+    locationManager = [[CLLocationManager alloc]init];
+    locationManager.delegate = self;
+    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    
+    [locationManager startUpdatingLocation];
+    NSLog(@"%f",locationManager.location.coordinate.latitude);
+    NSLog(@"%f",locationManager.location.coordinate.longitude);
+    
+    
+    
+    
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

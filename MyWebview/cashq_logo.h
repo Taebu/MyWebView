@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface cashq_logo : UIViewController
-
+@interface cashq_logo : UIViewController<CLLocationManagerDelegate>{
+    CLLocationManager *locationManager;
+    NSTimer *mytimer;
+    NSString *latitude;
+    NSString *longitude;
+}
+@property (nonatomic, retain) NSTimer *mytimer;
+@property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, retain) NSString *latitude;
+@property (nonatomic, retain) NSString *longitude;
 @end
