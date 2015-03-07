@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UpdateModel.h"
 @interface ViewController ()
 
 @end
@@ -16,20 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSURL *myURL = [NSURL URLWithString:@"http://cashq.co.kr/m/"];
+    
+    
+    self.modelUpdate = [[UpdateModel alloc]init];
+    
+    [self.modelUpdate updateToServer];
+    
+    NSURL *myURL = [NSURL URLWithString:@"http://cashq.co.kr/m/?latitude=37.6372&longitude=126.775&distance=5000"];
     NSURLRequest *myRequest = [NSURLRequest requestWithURL:myURL];
     self.myWebView.scalesPageToFit = YES;
     
     [self.myWebView loadRequest:myRequest];
-    locationManager = [[CLLocationManager alloc]init];
-    locationManager.delegate = self;
-    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     
-    [locationManager startUpdatingLocation];
-    NSLog(@"%f",locationManager.location.coordinate.latitude);
-    NSLog(@"%f",locationManager.location.coordinate.longitude);
-    
-    
+    self.modelUpdate.autoUpdate =TRUE;
+  
     
     
     

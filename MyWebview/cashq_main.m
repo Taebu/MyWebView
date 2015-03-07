@@ -1,13 +1,13 @@
 //
-//  cashq_logoViewController.h
+//  cashq_main.m
 //  MyWebview
 //
 //  Created by TaebuAir on 2015. 3. 6..
 //  Copyright (c) 2015년 Taebu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "cashq_main.h"
 
-@interface cashq_logoViewController : UIViewController
+@implementation cashq_main
 
 @end

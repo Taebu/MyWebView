@@ -7,16 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
-@interface ViewController : UIViewController
-<CLLocationManagerDelegate>{
+
+@class UpdateModel;
+
+@interface ViewController : UIViewController{
     
-//    IBOutlet __weak UIWebView *myWebView;
-    CLLocationManager *locationManager;
+    //    IBOutlet __weak UIWebView *myWebView;
+    
 }
 
 @property (nonatomic,weak) IBOutlet UIWebView *myWebView;
-@property (nonatomic,strong)CLLocationManager *locationManager;
+
+@property (nonatomic,strong)UpdateModel *modelUpdate;
 
 @end
 
