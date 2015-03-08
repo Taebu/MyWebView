@@ -27,8 +27,7 @@
     return  _mgrLoc;
 }
 
--(void) updateToServer{
-    NSLog(@"%@",@"test");
+-(void)updateToServer{
 }
 -(instancetype)init{
     self=[super init];
@@ -42,6 +41,10 @@
     }
     return self;
 }
+
+
+
+
 
 
 - (void)setAutoUpdate:(BOOL)autoUpdate{
@@ -60,7 +63,8 @@
     
     self.latitude = [NSNumber numberWithDouble:loc.coordinate.latitude];
     self.longitude = [NSNumber numberWithDouble:loc.coordinate.longitude];
-    
-    [self updateToServer];
+    NSLog(@"%f",[self.latitude doubleValue]);
+    NSLog(@"%f",[self.longitude doubleValue]);
+ //   [self updateToServer];
 }
 @end

@@ -17,6 +17,6 @@
 
 @property (nonatomic,assign, getter=isAutoUpdate) BOOL autoUpdate;
 
-- (void) updateToServer;
+-(void) updateToServer;
 
 @end

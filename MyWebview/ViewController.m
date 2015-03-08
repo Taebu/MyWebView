@@ -21,8 +21,14 @@
     self.modelUpdate = [[UpdateModel alloc]init];
     
     [self.modelUpdate updateToServer];
-    
-    NSURL *myURL = [NSURL URLWithString:@"http://cashq.co.kr/m/?latitude=37.6372&longitude=126.775&distance=5000"];
+
+    NSString *baseURL = [NSString stringWithFormat:@"http://cashq.co.kr/m/?lat=%f&lng=%f&distance=%@",
+                         [self.modelUpdate.latitude doubleValue],
+                         [self.modelUpdate.longitude doubleValue],
+                         @"5000"];
+  //  NSURL *myURL = [NSURL URLWithString:@"http://cashq.co.kr/m/?lat=27.333&lng=127.555&distance=5000"];
+
+    NSURL *myURL = [NSURL URLWithString:[baseURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     NSURLRequest *myRequest = [NSURLRequest requestWithURL:myURL];
     self.myWebView.scalesPageToFit = YES;
     

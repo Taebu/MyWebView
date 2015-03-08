@@ -19,6 +19,9 @@
 		480A12E51AA953A8008D68E0 /* main2.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12DA1AA953A8008D68E0 /* main2.png */; };
 		480A12E61AA953A8008D68E0 /* re.png in Resources */ = {isa = PBXBuildFile; fileRef = 480A12DB1AA953A8008D68E0 /* re.png */; };
 		480A12EF1AA95764008D68E0 /* cashq_logo.m in Sources */ = {isa = PBXBuildFile; fileRef = 480A12EE1AA95764008D68E0 /* cashq_logo.m */; };
+		480A12F51AA98ED8008D68E0 /* cashq_logo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480A12F41AA98ED8008D68E0 /* cashq_logo.xib */; };
+		480A12F81AA99013008D68E0 /* cashq_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480A12F71AA99013008D68E0 /* cashq_main.m */; };
+		480A12FB1AAA7953008D68E0 /* UpdateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 480A12FA1AAA7953008D68E0 /* UpdateModel.m */; };
 		483C51641AA94685005B4E86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483C51631AA94685005B4E86 /* CoreLocation.framework */; };
 		48F3C9481A387F0A00A82DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3C9471A387F0A00A82DA0 /* main.m */; };
 		48F3C94B1A387F0A00A82DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3C94A1A387F0A00A82DA0 /* AppDelegate.m */; };
@@ -53,6 +56,11 @@
 		480A12DB1AA953A8008D68E0 /* re.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = re.png; sourceTree = "<group>"; };
 		480A12ED1AA95764008D68E0 /* cashq_logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cashq_logo.h; sourceTree = "<group>"; };
 		480A12EE1AA95764008D68E0 /* cashq_logo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cashq_logo.m; sourceTree = "<group>"; };
+		480A12F41AA98ED8008D68E0 /* cashq_logo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cashq_logo.xib; sourceTree = "<group>"; };
+		480A12F61AA99013008D68E0 /* cashq_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cashq_main.h; sourceTree = "<group>"; };
+		480A12F71AA99013008D68E0 /* cashq_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cashq_main.m; sourceTree = "<group>"; };
+		480A12F91AAA7953008D68E0 /* UpdateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateModel.h; sourceTree = "<group>"; };
+		480A12FA1AAA7953008D68E0 /* UpdateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateModel.m; sourceTree = "<group>"; };
 		483C51631AA94685005B4E86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		48F3C9421A387F0A00A82DA0 /* MyWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F3C9461A387F0A00A82DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +139,11 @@
 				480A12D01AA953A8008D68E0 /* image */,
 				480A12ED1AA95764008D68E0 /* cashq_logo.h */,
 				480A12EE1AA95764008D68E0 /* cashq_logo.m */,
+				480A12F41AA98ED8008D68E0 /* cashq_logo.xib */,
+				480A12F61AA99013008D68E0 /* cashq_main.h */,
+				480A12F71AA99013008D68E0 /* cashq_main.m */,
+				480A12F91AAA7953008D68E0 /* UpdateModel.h */,
+				480A12FA1AAA7953008D68E0 /* UpdateModel.m */,
 				48F3C9491A387F0A00A82DA0 /* AppDelegate.h */,
 				48F3C94A1A387F0A00A82DA0 /* AppDelegate.m */,
 				48F3C94C1A387F0A00A82DA0 /* ViewController.h */,
@@ -250,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480A12F51AA98ED8008D68E0 /* cashq_logo.xib in Resources */,
 				480A12E41AA953A8008D68E0 /* loc.png in Resources */,
 				48F3C9511A387F0A00A82DA0 /* Main.storyboard in Resources */,
 				48F3C9561A387F0A00A82DA0 /* LaunchScreen.xib in Resources */,
@@ -283,6 +297,8 @@
 			files = (
 				48F3C94E1A387F0A00A82DA0 /* ViewController.m in Sources */,
 				48F3C94B1A387F0A00A82DA0 /* AppDelegate.m in Sources */,
+				480A12FB1AAA7953008D68E0 /* UpdateModel.m in Sources */,
+				480A12F81AA99013008D68E0 /* cashq_main.m in Sources */,
 				48F3C9481A387F0A00A82DA0 /* main.m in Sources */,
 				480A12EF1AA95764008D68E0 /* cashq_logo.m in Sources */,
 			);
