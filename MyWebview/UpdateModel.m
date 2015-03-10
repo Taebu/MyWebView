@@ -41,16 +41,6 @@
 }
 -(instancetype)init{
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"실패" message:@"위치값을 가져오지 못했습니다." delegate:self cancelButtonTitle:@"확인" otherButtonTitles:nil];
-    [alert show];
-    
-    self=[super init];
-    
-    [self.mgrLoc requestWhenInUseAuthorization];
-    [self.mgrLoc startUpdatingLocation];
-    
-    alert = [[UIAlertView alloc] initWithTitle:@"실패" message:@"3.8" delegate:self cancelButtonTitle:@"확인" otherButtonTitles:nil];
-    [alert show];
     if(self){
         self.deviceIdentifier = [[[UIDevice currentDevice] identifierForVendor]UUIDString];
         self.latitude = self.latitude;
@@ -90,5 +80,6 @@
     NSLog(@"%f",[self.longitude doubleValue]);
     [self.mgrLoc stopUpdatingLocation];
     [self updateToServer];
+    
 }
 @end

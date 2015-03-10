@@ -11,25 +11,18 @@
 #import <MapKit/MapKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController<UIWebViewDelegate,
-CLLocationManagerDelegate,
-MKReverseGeocoderDelegate,
-UIActionSheetDelegate,
-UIAlertViewDelegate>{
-    //    IBOutlet __weak UIWebView *myWebView;
+@interface ViewController : UIViewController<CLLocationManagerDelegate>{
     CLLocationManager *locationManager;
-    MKReverseGeocoder *geocoder;
-    UIWebView *webView;
-
+    NSTimer *mytimer;
     NSNumber *latitude;
     NSNumber *longitude;
 }
-
 @property (nonatomic,weak) IBOutlet UIWebView *myWebView;
 
 @property (nonatomic,strong)UpdateModel *modelUpdate;
-@property (nonatomic, retain) NSNumber *latitude;
-@property (nonatomic, retain) NSNumber *longitude;
+@property (nonatomic,strong) NSNumber *latitude;
+@property (nonatomic,strong) NSNumber *longitude;
+@property (nonatomic, strong) CLLocationManager *locationManager;
 @end
 
 @interface UIWebView (WebUI)
