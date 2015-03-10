@@ -68,10 +68,12 @@
     self.latitude = [NSNumber numberWithDouble:loc.coordinate.latitude];
     self.longitude = [NSNumber numberWithDouble:loc.coordinate.longitude];
     
-    
+    [self.mgrLoc stopUpdatingLocation];
+
     NSLog(@"%f",[self.latitude doubleValue]);
     NSLog(@"%f",[self.longitude doubleValue]);
-     [self kk];
+    
+    [self kk];
     
     
 }
