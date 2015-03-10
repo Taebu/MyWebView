@@ -22,6 +22,9 @@
 		480A12F51AA98ED8008D68E0 /* cashq_logo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480A12F41AA98ED8008D68E0 /* cashq_logo.xib */; };
 		480A12F81AA99013008D68E0 /* cashq_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480A12F71AA99013008D68E0 /* cashq_main.m */; };
 		480A12FB1AAA7953008D68E0 /* UpdateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 480A12FA1AAA7953008D68E0 /* UpdateModel.m */; };
+		482EAE2E1AAEE59B00E5CB98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482EAE2D1AAEE59B00E5CB98 /* UIKit.framework */; };
+		482EAE301AAEE5A700E5CB98 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482EAE2F1AAEE5A700E5CB98 /* MapKit.framework */; };
+		482EAE321AAEE5B300E5CB98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482EAE311AAEE5B300E5CB98 /* QuartzCore.framework */; };
 		483C51641AA94685005B4E86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483C51631AA94685005B4E86 /* CoreLocation.framework */; };
 		48F3C9481A387F0A00A82DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3C9471A387F0A00A82DA0 /* main.m */; };
 		48F3C94B1A387F0A00A82DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3C94A1A387F0A00A82DA0 /* AppDelegate.m */; };
@@ -61,6 +64,9 @@
 		480A12F71AA99013008D68E0 /* cashq_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cashq_main.m; sourceTree = "<group>"; };
 		480A12F91AAA7953008D68E0 /* UpdateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateModel.h; sourceTree = "<group>"; };
 		480A12FA1AAA7953008D68E0 /* UpdateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateModel.m; sourceTree = "<group>"; };
+		482EAE2D1AAEE59B00E5CB98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		482EAE2F1AAEE5A700E5CB98 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		482EAE311AAEE5B300E5CB98 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		483C51631AA94685005B4E86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		48F3C9421A387F0A00A82DA0 /* MyWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F3C9461A387F0A00A82DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482EAE321AAEE5B300E5CB98 /* QuartzCore.framework in Frameworks */,
+				482EAE301AAEE5A700E5CB98 /* MapKit.framework in Frameworks */,
+				482EAE2E1AAEE59B00E5CB98 /* UIKit.framework in Frameworks */,
 				483C51641AA94685005B4E86 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +126,9 @@
 		48F3C9391A387F0A00A82DA0 = {
 			isa = PBXGroup;
 			children = (
+				482EAE311AAEE5B300E5CB98 /* QuartzCore.framework */,
+				482EAE2F1AAEE5A700E5CB98 /* MapKit.framework */,
+				482EAE2D1AAEE59B00E5CB98 /* UIKit.framework */,
 				483C51631AA94685005B4E86 /* CoreLocation.framework */,
 				48F3C9441A387F0A00A82DA0 /* MyWebview */,
 				48F3C95E1A387F0A00A82DA0 /* MyWebviewTests */,

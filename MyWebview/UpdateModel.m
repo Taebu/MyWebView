@@ -9,6 +9,7 @@
 #import <CoreLocation/CoreLocation.h>
 
 #import "UpdateModel.h"
+#import "ViewController.h"
 
 @interface UpdateModel()<CLLocationManagerDelegate>
 
@@ -28,10 +29,28 @@
 }
 
 -(void)updateToServer{
+    
+    ViewController *detailViewController = [[ViewController alloc] init];
+        detailViewController.latitude = self.latitude;
+        detailViewController.longitude =self.longitude;
+    CLLocationCoordinate2D coordinate;
+    coordinate.latitude = [self.latitude doubleValue];
+    coordinate.longitude = [self.longitude doubleValue];
+    NSLog(@"%f, %f", coordinate.longitude, coordinate.latitude);
+    
 }
 -(instancetype)init{
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"실패" message:@"위치값을 가져오지 못했습니다." delegate:self cancelButtonTitle:@"확인" otherButtonTitles:nil];
+    [alert show];
+    
     self=[super init];
     
+    [self.mgrLoc requestWhenInUseAuthorization];
+    [self.mgrLoc startUpdatingLocation];
+    
+    alert = [[UIAlertView alloc] initWithTitle:@"실패" message:@"3.8" delegate:self cancelButtonTitle:@"확인" otherButtonTitles:nil];
+    [alert show];
     if(self){
         self.deviceIdentifier = [[[UIDevice currentDevice] identifierForVendor]UUIDString];
         self.latitude = self.latitude;
@@ -56,6 +75,8 @@
     }else{
         [self.mgrLoc stopUpdatingLocation];
     }
+    
+    
 }
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
@@ -63,8 +84,11 @@
     
     self.latitude = [NSNumber numberWithDouble:loc.coordinate.latitude];
     self.longitude = [NSNumber numberWithDouble:loc.coordinate.longitude];
+    
+    
     NSLog(@"%f",[self.latitude doubleValue]);
     NSLog(@"%f",[self.longitude doubleValue]);
- //   [self updateToServer];
+    [self.mgrLoc stopUpdatingLocation];
+    [self updateToServer];
 }
 @end

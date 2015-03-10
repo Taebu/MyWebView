@@ -7,8 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface UpdateModel : NSObject
+#import <CoreLocation/CoreLocation.h>
+@interface UpdateModel : NSObject<CLLocationManagerDelegate>{
+    CLLocationManager *locationManager;
+    NSTimer *mytimer;
+    NSNumber *latitude;
+    NSNumber *longitude;
+}
 
 @property (nonatomic,strong) NSString *deviceIdentifier;
 @property (nonatomic,strong) NSString *message;
